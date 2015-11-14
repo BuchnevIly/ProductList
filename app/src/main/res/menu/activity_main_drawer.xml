@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/my_recipe" android:icon="@drawable/ic_my_recipe"
+            android:title="Мои рецепты"/>
+        <item android:id="@+id/favorites" android:icon="@drawable/ic_favorits"
+            android:title="Избранное" />
+        <item android:id="@+id/search" android:icon="@android:drawable/ic_menu_search"
+            android:title="Поиск" />
+        <item android:id="@+id/tools" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Параметры" />
+        <item android:id="@+id/shopping_list" android:icon="@drawable/ic_shopping_list"
+            android:title="Список покупок" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/about" android:icon="@drawable/ic_about"
+                android:title="О программе" />
+        </menu>
+    </item>
+
+</menu>

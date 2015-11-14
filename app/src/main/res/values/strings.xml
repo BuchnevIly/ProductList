@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Product List</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="dialog_message">
+        "Product list \n\n"
+        "---------------------------------\n"
+        "Версия программы:             0.1\n"
+        "Разработчик: cullxdrive@gmail.com\n"
+    </string>
+
+    <string name="title_activity_recept_open">Название рецепта</string>
+
+
+    <string name="MyRecipeString">В этом разделе хранятся все ваши сохраненные рецепты. Пока вы не добавили ни одного рецепта.</string>
+    <string name="FavoriteString">В этом разделе хранятся избранные рецепты. Пока вы не добавили в избранное ни одного рецепта.</string>
+    <string name="title_activity_recipe_edit">Редактор рецептов</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.cullxdrive.productlist.Fragments.FragmentMyRecipe">
+
+    <LinearLayout
+        android:id="@+id/my_recipe_info"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:layout_margin="25dp"
+        android:padding="25dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/MyRecipeString"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:text="Перейти к поиску"
+            android:id="@+id/button_search"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:layout_weight="0.04" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
